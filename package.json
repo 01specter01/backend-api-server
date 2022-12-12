@@ -1,0 +1,28 @@
+{
+    "name": "backend-api-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon main.js",
+        "start": "node main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/01specter01/backend-api-server.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/01specter01/backend-api-server/issues"
+    },
+    "homepage": "https://github.com/01specter01/backend-api-server#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "lowdb": "^5.0.5",
+        "nodemon": "^2.0.20"
+    }
+}
